@@ -1,0 +1,443 @@
+/*.preloader-it {*/
+    /*background: #fff;*/
+    /*position: inherit;*/
+    /*z-index: 10001;*/
+    /*height: 100%;*/
+    /*width: 100%;*/
+    /*overflow: auto;*/
+/*}*/
+.visiting-card {
+    max-width: 60px!important;
+    margin: 5px;
+}
+.alert.alert-success {
+    background: #46c226;
+}
+/**
+Radiobox design
+ */
+
+/* The container */
+.radio-container {
+    display: inline;
+    position: relative;
+    padding-left: 35px!important;
+    margin-bottom: 12px!important;;
+    cursor: pointer;
+    font-size: 14px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    margin-right: 10px;
+}
+
+/* Hide the browser's default checkbox */
+.radio-container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+}
+
+/* On mouse-over, add a grey background color */
+.radio-container:hover input ~ .checkmark {
+    background-color: #ccc;
+}
+
+/* When the checkbox is checked, add a blue background */
+.radio-container input:checked ~ .checkmark {
+    background-color: #2196F3;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Show the checkmark when checked */
+.radio-container input:checked ~ .checkmark:after {
+    display: block;
+}
+
+/* Style the checkmark/indicator */
+.radio-container .checkmark:after {
+    left: 9px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+
+/** Auto Searchable Field **/
+li.search-item.listitem {
+    border: 1px solid #e4e4e4;
+    max-height: 200px;
+    background: aliceblue;
+}
+li.search-item.supplierlistitem {
+    border: 1px solid #e4e4e4;
+    max-height: 200px;
+    background: aliceblue;
+}
+.company-name{
+    font-weight: 500;
+}
+.company-area {
+    overflow-y: scroll;
+    max-height: 150px;
+}
+.title-name {
+    padding-left: 15px;
+}
+/** Auto Searchable Field **/
+
+
+/**  Full Search **/
+.search-criteria {
+    background: #c1f3d5;
+    padding: 2px;
+    font-size: 15px;
+}
+span.single {
+    border-right: 1px solid #d6e7eb;
+    margin: 5px;
+}
+.search-criteria:empty {
+    display: none;
+}
+/**  Full Search **/
+
+
+
+/** Company View ***/
+.primary-information, .business-type {
+    margin-left: 5px;
+    margin-top: 18px;
+}
+.info-small-title {
+    background: #bdeccf;
+    padding: 5px;
+    margin: 10px 5px 5px 0px;
+}
+/** Company View ***/
+
+
+/** Print Button */
+.toolbar {
+    float:left;
+}
+.print-button-p {
+    margin-top: 7px;
+    margin-left: 22px;
+    margin-bottom: 0px;
+}
+.printButton{
+    padding: 5px 12px;
+    background: #d64368;
+    border: 0px;
+    border-radius: 2px;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: #FFF;
+}
+.printButton:hover{
+    color: #FFF;
+    background: #d64355;
+}
+/** End Print Button */
+
+
+
+
+/** Employee Profile Section */
+#tabPrimaryInformationArea, #tabSalaryInformationArea, #tabDeductionInformationArea, #tabAllowanceInformationArea {
+    padding: 20px 10px 20px 25px;
+}
+.nav-tabs > li.active > a, .nav-tabs > li.open > a , .nav-tabs > li.active > a:active, .nav-tabs > li.active > a:focus, .nav-tabs > li.active > a:hover, .nav-tabs > li.open > a:active, .nav-tabs > li.open > a:focus, .nav-tabs > li.open > a:hover {
+    background: #c7f3c1!important;
+    color: #212121;
+    border-color: #cbf3bd;
+    padding: 10px 40px 10px 40px;
+}
+.nav-tabs > li > a {
+    padding: 10px 35px 10px 40px;
+}
+.nav-tabs li a.active {
+    background: #c7f3c1!important;
+}
+/** Employee Profile Section */
+
+/** Employee Search **/
+.employee-area {
+    overflow-y: scroll;
+    max-height: 150px;
+}
+.employee-area:empty {
+    display: none!important;
+}
+/** Employee Search **/
+
+
+/** Salary Generator */
+.salary-searched {
+    margin: 5px;
+    background: antiquewhite;
+    padding: 5px;
+}
+.border-right {
+    border-right: 1px solid #d3cece91;
+}
+.salary-from {
+    background: antiquewhite;
+    padding: 10px;
+    border-radius: 10px;
+}
+/** Salary Generator */
+
+
+/** Sidebar Scroll **/
+/*.fixed-sidebar-left .side-nav {*/
+    /*overflow-y: auto;*/
+/*}*/
+/** Sidebar Scroll **/
+
+/** Leave Request **/
+.single-leave-request > p, .single-leave-request > div > p {
+    padding: 5px;
+    border: 1px solid #f4efef;
+}
+/** Leave Request **/
+
+/**** Chat System *********/
+.chat-single-user {
+    display: block;
+    background: #f0f4f5;
+    padding: 10px;
+}
+.chat-single-user:hover {
+    background: #eeecec;
+}
+.chat-profile {
+    float: left;
+    width: 25px;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    border-radius: 40px;
+}
+.chat-profile-icon{
+    float: left;
+    font-size: 22px;
+    color: gray;
+}
+.chat-name {
+    padding-left: 10px;
+    float: left;
+}
+.message-section {
+    width: 100%;
+}
+.message-text {
+    float: left;
+    width: 80%;
+    padding: 9px;
+}
+.send-message-button {
+    border-radius: 0px!important;
+}
+.contact-list {
+    height: 400px;
+    overflow-y: scroll;
+}
+.message-lists {
+    height: 300px;
+    overflow-y: scroll;
+    border: 1px solid #f0f4f5;
+}
+.single-message {
+    border: 1px solid #e2e8ea!important;
+    color: #272424f0;
+    padding: 10px;
+    margin-top: 2px;
+}
+.sent-message {
+    float: right;
+    background: #0084FF;
+    color: #FFF;
+    border-radius: 20px;
+    padding-left: 20px;
+    padding-right: 30px;
+}
+.received-message {
+    float: left;
+    background: #e2e8ea;
+    color: #282424;
+    border-radius: 20px;
+    padding-left: 20px;
+    padding-right: 30px;
+}
+.conversation-help {
+    margin-top: 20%;
+    color: gray;
+    letter-spacing: 1px;
+}
+.chat-file-link {
+    color: #322f2f;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+/**** Chat System *********/
+
+.modal-dialog.modal-md.edit-task-modal {
+    width: 700px;
+}
+.btn-add-complain {
+    border: 1px solid #458bcd;
+    padding: 10px;
+}
+.btn-add-complain a {
+    color: #be0808;
+}
+.border-light-blue {
+    border: 1px solid #4a5571!important;
+}
+.btn-update-sm {
+    padding: 4px!important;
+}
+.admin-reply {
+    background: aliceblue;
+    margin-left: 100px!important;
+    border-left: 2px solid #b4b4b4!important;
+    border-radius: 30px 0px 0px 30px;
+}
+.user-reply {
+    background: #f4f8e7;
+    border-radius: 30px 0px 0px 30px;
+}
+
+/** FAQ ***/
+.faq-suggestion {
+    border: 1px solid #dbdbdb;
+    padding: 8px;
+    margin-left: 8px;
+    border-left: 0px;
+    margin-top: -21px;
+}
+.faq-suggestion h5 {
+    margin: 0px 0px 15px 0px;
+}
+#suggestion-faq a {
+    display: block;
+    padding-left: 10px;
+    color: #b90007;
+}
+.panel-ticket{
+    margin-top: -21px;
+    margin-left: -16px;
+}
+hr {
+    border-top: 1px solid #c0c0c0;
+}
+#suggestion-faq {
+    height: 380px;
+    overflow-y: auto;
+}
+#filterInput{
+    border: 0px!important;
+    border-bottom: 1px solid #99a5c4!important;
+    padding-left: 2px;
+}
+/** FAQ ***/
+
+/** Single Entry */
+.single_entry_4 {
+    float: left;
+    margin: 5px 1.5% 0;
+    width: 22%;
+}
+/** Single Entry */
+
+/** Date Picker **/
+.daterangepicker td.active, .daterangepicker td.active:hover, .bootstrap-datetimepicker-widget table td.active, .bootstrap-datetimepicker-widget table td.active:hover {
+    background: #469408;
+    color: #FFF!important;
+}
+
+.subtotal-pr {
+    color: #d70505!important;
+    font-weight: bold;
+}
+.project-requisition-page {
+    color: #302828;
+}
+.project-requisition-view-page {
+    color: #302828;
+}
+.project-requisition-view-page thead tr td{
+    color: #FFF!important;
+}
+.single-item {
+    border: 1px dotted #c2bdbd;
+    padding: 10px;
+    margin-right: 24px;
+}
+.project-requisition-page .select2-container .select2-selection--multiple .select2-selection__rendered {
+    padding-left: 12px;
+    line-height: 14px;
+}
+.holiday-page .select2-container .select2-selection--multiple .select2-selection__rendered {
+    padding-left: 12px;
+    line-height: 20px;
+}
+.calendar-view-page thead{
+    background: transparent!important;
+    color: #000!important;
+}
+.calendar-view-page .fc-row.fc-rigid .fc-content-skeleton {
+    position: relative!important;
+}
+.calendar-view-page .fc-unthemed .fc-today {
+    background: #c8e2c5;
+    color: #000;
+}
+
+/** Attendance Report page **/
+.attendance-report-table{
+    width: 1200px!important;
+}
+.attendance-report-table > thead > tr > th[class*="sort"]:after{
+    content: "" !important;
+}
+.attendance-report-table thead {
+    background: #f0ad4e;
+    color: #000!important;
+}
+.attendance-report-table > thead > tr > th, .jsgrid-table > thead > tr > th, .attendance-report-table > tfoot > tr > th, .attendance-report-table > tfoot > tr > th {
+    border-bottom: 2px solid rgba(33, 33, 33, 0.1) !important;
+    color: #440606 !important;
+    font-size: 14px!important;
+    font-weight: 600 !important;
+    text-transform: none;
+    padding: 3px 5px !important;
+    font-family: none;
+}
+
+/** Attendance Report page **/
